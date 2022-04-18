@@ -9,6 +9,7 @@ public class Table {
 		int num;
       Scanner sc = new Scanner(System.in);
       System.out.println("Enter a positive number");
+      System.out.println("=============");
        num = sc.nextInt();
        System.out.println("Multiplication Table of " + num);
        for (int i = 1; i <=10; i++) {
